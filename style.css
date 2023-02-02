@@ -209,9 +209,9 @@ form {
   line-height: 34px;
 }
 #logoPouce {
-  z-index: 0;
+  z-index: 8;
   position: absolute;
-  width: 140px;
-  margin-bottom: 115px;
+  width: 120px;
+  margin-bottom: 125px;
   margin-right: 0px;
 }
