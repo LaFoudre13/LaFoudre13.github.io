@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel=stylesheet type="text/css" href="style.css" />
+  
+
+  <title>Coligo</title>
+    
+</head>
+<body>
+
+<box>
+<img id="logo" src="./image-coligo.png"> 
+<div id="listeDonnee">
+<form action="./data.php" method="post">
+   
+    <fieldset class="etat-civil">
+        <legend>Identité</legend>
+       <label for="nom">Nom</label>
+       <input id="nom" name="nom" type="text" /><br />
+       <label for="prenom">Prénom </label>
+       <input id="prenom" name="prenom" type="text" /><br />
+       <label for="date-de-naissance">Date de naissance</label>
+       <input id="date-de-naissance" name="date-de-naissance" type="text" />
+   </fieldset>
+   <fieldset class="adresse">
+        <legend>Adresse</legend>
+        <label>Rue</label>
+        <input id="rue" name="rue" type="text" /><br />
+        <label>Code postal</label>
+        <input id="code-postal" name="code-postal" type="text" /><br />
+        <label>Ville</label>
+        <input id="ville" name="ville" type="text" />
+   </fieldset>
+   <fieldset class="infocontact">
+        <legend>Contact</legend>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_mail"><br />
+        <label for="phone">Tél:</label>
+        <input type="tel" id="phone" name="phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
+
+
+
+
+</form>
+</div>
+<div><a href="./page_doc.html"><button id="boutonSuivant" name="boutonSuivant">Suivant</button></a></div>
+
+</box>
+
+</body>
+</html>

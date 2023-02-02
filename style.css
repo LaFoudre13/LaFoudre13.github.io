@@ -26,8 +26,8 @@ box {
   z-index: 1;
 }
 #logo2 {
-  width: 180px;
-  margin-top: 155px;
+  width: 220px;
+  margin-top: 80px;
   position: absolute;
   z-index: 4;
 }
@@ -38,8 +38,9 @@ box {
   text-align: center;
   font-family: "Manifestor", sans-serif;
   font-weight: bold;
-  font-size: larger;
-  line-height: 22px;
+  font-size: 29px;
+  line-height: 30px;
+  color: rgb(25, 44, 40);
 }
 #question {
   position: absolute;
@@ -54,10 +55,9 @@ box {
   position: absolute;
   z-index: 5;
   text-align: center;
-  margin-top: 350px;
-  margin-right: 115px;
-  font-weight: bold;
-  font-size: larger;
+  margin-top: 500px;
+  margin-right: 25px;
+  font-size: 15px;
   font-family: "Manifestor", sans-serif;
   line-height: 22px;
 }
@@ -77,10 +77,141 @@ box {
   border-color: white;
   width: 410px;
   height: 40px;
-  margin-top: 500px;
+  margin-top: 400px;
   margin-left: 0px;
   border-radius: 10px;
   color: white;
   font-size: larger;
   font-family: "Manifestor", sans-serif;
+}
+#listeDonnee {
+  position: absolute;
+  z-index: 5;
+  margin-top: 90px;
+  line-height: 30px;
+}
+.etat-civil,
+.adresse,
+.infocontact {
+  border-color: rgb(1, 204, 197);
+  border-radius: 10px;
+}
+fieldset input {
+  color: black;
+  font-family: "Manifestor", sans-serif;
+  font-size: 13px;
+  border-color: rgb(1, 204, 197);
+  border-radius: 5px;
+}
+fieldset label {
+  color: rgb(0, 0, 0);
+  font-family: "Manifestor", sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+fieldset legend {
+  color: rgb(0, 0, 0);
+  font-family: "Manifestor", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+form {
+  line-height: 30px;
+}
+#boutonSuivant {
+  background-color: orange;
+  border-color: white;
+  width: 410px;
+  height: 40px;
+  margin-top: 535px;
+  margin-left: 0px;
+  border-radius: 10px;
+  color: white;
+  font-size: larger;
+  font-family: "Manifestor", sans-serif;
+}
+#phrasechoix {
+  position: absolute;
+  z-index: 2;
+  margin-bottom: 200px;
+  text-align: center;
+  font-family: "Manifestor", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  color: rgb(25, 44, 40);
+}
+#verifdoc {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  border-color: orange;
+  width: 400px;
+  height: 40px;
+  margin-top: 0px;
+  margin-left: -200px;
+  border-radius: 10px;
+  color: rgb(9, 7, 128);
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Manifestor", sans-serif;
+}
+#verifdocsuivant {
+  position: absolute;
+  z-index: 2;
+  background-color: orange;
+  border-color: rgb(255, 255, 255);
+  width: 410px;
+  height: 40px;
+  margin-top: 100px;
+  margin-left: -205px;
+  border-radius: 10px;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Manifestor", sans-serif;
+}
+#ou {
+  position: absolute;
+  z-index: 0;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Manifestor", sans-serif;
+  color: rgb(25, 44, 40);
+  text-align: center;
+  margin-top: 165px;
+}
+#logoidn {
+  z-index: 5;
+  position: absolute;
+  width: 40px;
+  margin-top: 43px;
+  margin-right: 320px;
+}
+#bravo {
+  position: absolute;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Manifestor", sans-serif;
+  color: rgb(25, 44, 40);
+  text-align: center;
+  margin-top: 110px;
+  line-height: 34px;
+}
+#bienvenue {
+  position: absolute;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Manifestor", sans-serif;
+  color: rgb(25, 44, 40);
+  text-align: center;
+  margin-top: 280px;
+  line-height: 34px;
+}
+#logoPouce {
+  z-index: 0;
+  position: absolute;
+  width: 140px;
+  margin-bottom: 115px;
+  margin-right: 0px;
 }
