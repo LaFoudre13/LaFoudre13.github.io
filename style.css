@@ -242,10 +242,16 @@ p span {
   color: rgb(25, 44, 40);
 }
 #casquetteUn {
+  z-index: 1;
+  position: absolute;
   width: 150px;
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-left: 200px;
 }
 #casquetteDeux {
+  z-index: 2;
+  position: absolute;
   width: 140px;
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-right: 200px;
 }
