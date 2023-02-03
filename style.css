@@ -218,3 +218,34 @@ form {
 p span {
   font-size: 20px;
 }
+#boutonCommencer {
+  background-color: orange;
+  border-color: white;
+  width: 410px;
+  height: 40px;
+  margin-top: 500px;
+  margin-left: 0px;
+  border-radius: 10px;
+  color: white;
+  font-size: larger;
+  font-family: "Manifestor", sans-serif;
+}
+#choixService {
+  position: absolute;
+  z-index: 2;
+  margin-bottom: 200px;
+  text-align: center;
+  font-family: "Manifestor", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  color: rgb(25, 44, 40);
+}
+#casquetteUn {
+  width: 150px;
+  margin-top: 100px;
+}
+#casquetteDeux {
+  width: 140px;
+  margin-top: 100px;
+}
